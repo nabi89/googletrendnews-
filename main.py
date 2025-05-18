@@ -16,6 +16,9 @@ if guncelle:
     for dil in diller:
         trendgetir(dil)
 
+dilsecimi=st.multiselect("Ülke Seç",diller)
+ara = st.text_input("Haberler İçin Arama Yap")
+
 ara=st.text_input("Haber İçinde Arama Yap")
 
 
