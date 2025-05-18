@@ -35,8 +35,8 @@ for i in range(0,len(haberler),3):
             st.image(haberler[i+1][3])
             st.write(haberler[i+1][1])
             st.link_button("Habere Git",haberler[i+1][2])
-    else:
-        pass
+        else:
+            pass
     with col3:
         if i+2 < len(haberler):
             st.image(haberler[i+2][3])
